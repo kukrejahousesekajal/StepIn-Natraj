@@ -5,8 +5,8 @@ const cors = require("cors");
 const app = express();
 app.use(cors({
     origin: [
-        "http://localhost:3000",
-        "https://your-frontend-name.vercel.app"
+        "http://localhost:5173",
+        "https://stepin-natraj.vercel.app"
     ],
     credentials: true
 }));
